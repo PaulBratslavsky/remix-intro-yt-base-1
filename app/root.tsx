@@ -11,6 +11,7 @@ import {
 
 import styles from "./tailwind.css"
 import Navigation from "./components/custom/Navigation";
+import Footer from "./components/custom/Footer";
 
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: styles },
@@ -28,7 +29,8 @@ export default function App() {
       </head>
       <body className="container mx-auto">
         <Navigation />
-        <Outlet />
+        <main><Outlet /></main>
+        <Footer />
         <ScrollRestoration />
         <Scripts />
         <LiveReload />

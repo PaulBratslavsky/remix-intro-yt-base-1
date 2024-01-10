@@ -1,4 +1,5 @@
 import type { MetaFunction } from "@remix-run/node";
+import Hero from "~/components/custom/Hero";
 
 export const meta: MetaFunction = () => {
   return [
@@ -11,7 +12,7 @@ export const meta: MetaFunction = () => {
 
 export default function RootRoute() {
   return (
-    <div>Hello Remix!</div>
+    <Hero />
   )
 }
 

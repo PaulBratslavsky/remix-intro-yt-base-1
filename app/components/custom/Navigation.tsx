@@ -12,7 +12,7 @@ import {
 
 export default function Navigation() {
   return (
-    <div className="flex flex-col min-h-screen bg-white dark:bg-gray-900">
+    <div className="flex flex-col bg-white dark:bg-gray-900">
       <div className="w-full px-4 py-6 flex items-center justify-between">
         <div className="text-2xl font-bold text-gray-900 dark:text-gray-100">
           MyApp
